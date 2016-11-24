@@ -1,0 +1,811 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="100">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <df root="." name="0">
+      <df name="build">
+        <df name="cefclient">
+          <df name="CMakeFiles">
+            <df name="cefclient.dir">
+              <df name="browser">
+              </df>
+              <df name="common">
+              </df>
+              <df name="renderer">
+              </df>
+            </df>
+          </df>
+          <df name="Debug">
+            <df name="files">
+            </df>
+            <df name="locales">
+            </df>
+          </df>
+        </df>
+        <df name="cefsimple">
+          <df name="CMakeFiles">
+            <df name="cefsimple.dir">
+            </df>
+          </df>
+          <df name="Debug">
+            <df name="locales">
+            </df>
+          </df>
+        </df>
+        <df name="CMakeFiles">
+          <df name="3.5.1">
+            <df name="CompilerIdC">
+              <in>CMakeCCompilerId.c</in>
+            </df>
+            <df name="CompilerIdCXX">
+              <in>CMakeCXXCompilerId.cpp</in>
+            </df>
+          </df>
+          <df name="CMakeTmp">
+          </df>
+          <in>feature_tests.c</in>
+          <in>feature_tests.cxx</in>
+        </df>
+        <df name="libcef_dll_wrapper">
+          <df name="CMakeFiles">
+            <df name="libcef_dll_wrapper.dir">
+              <df name="base">
+              </df>
+              <df name="cpptoc">
+                <df name="views">
+                </df>
+              </df>
+              <df name="ctocpp">
+                <df name="views">
+                </df>
+              </df>
+              <df name="wrapper">
+              </df>
+            </df>
+          </df>
+        </df>
+      </df>
+      <df name="cefclient">
+        <df name="browser">
+          <in>binding_test.cc</in>
+          <in>binding_test.h</in>
+          <in>browser_window.cc</in>
+          <in>browser_window.h</in>
+          <in>browser_window_osr_gtk.cc</in>
+          <in>browser_window_osr_gtk.h</in>
+          <in>browser_window_std_gtk.cc</in>
+          <in>browser_window_std_gtk.h</in>
+          <in>bytes_write_handler.cc</in>
+          <in>bytes_write_handler.h</in>
+          <in>client_app_browser.cc</in>
+          <in>client_app_browser.h</in>
+          <in>client_app_delegates_browser.cc</in>
+          <in>client_handler.cc</in>
+          <in>client_handler.h</in>
+          <in>client_handler_osr.cc</in>
+          <in>client_handler_osr.h</in>
+          <in>client_handler_std.cc</in>
+          <in>client_handler_std.h</in>
+          <in>client_types.h</in>
+          <in>dialog_handler_gtk.cc</in>
+          <in>dialog_handler_gtk.h</in>
+          <in>dialog_test.cc</in>
+          <in>dialog_test.h</in>
+          <in>geometry_util.cc</in>
+          <in>geometry_util.h</in>
+          <in>main_context.cc</in>
+          <in>main_context.h</in>
+          <in>main_context_impl.cc</in>
+          <in>main_context_impl.h</in>
+          <in>main_context_impl_posix.cc</in>
+          <in>main_message_loop.cc</in>
+          <in>main_message_loop.h</in>
+          <in>main_message_loop_std.cc</in>
+          <in>main_message_loop_std.h</in>
+          <in>onewClass.cpp</in>
+          <in>onewClass.h</in>
+          <in>osr_dragdrop_events.h</in>
+          <in>osr_renderer.cc</in>
+          <in>osr_renderer.h</in>
+          <in>preferences_test.cc</in>
+          <in>preferences_test.h</in>
+          <in>print_handler_gtk.cc</in>
+          <in>print_handler_gtk.h</in>
+          <in>resource.h</in>
+          <in>resource_util.cc</in>
+          <in>resource_util.h</in>
+          <in>resource_util_linux.cc</in>
+          <in>resource_util_posix.cc</in>
+          <in>response_filter_test.cc</in>
+          <in>response_filter_test.h</in>
+          <in>root_window.cc</in>
+          <in>root_window.h</in>
+          <in>root_window_create.cc</in>
+          <in>root_window_gtk.cc</in>
+          <in>root_window_gtk.h</in>
+          <in>root_window_manager.cc</in>
+          <in>root_window_manager.h</in>
+          <in>root_window_views.cc</in>
+          <in>root_window_views.h</in>
+          <in>scheme_test.cc</in>
+          <in>scheme_test.h</in>
+          <in>temp_window.h</in>
+          <in>temp_window_x11.cc</in>
+          <in>temp_window_x11.h</in>
+          <in>test_runner.cc</in>
+          <in>test_runner.h</in>
+          <in>urlrequest_test.cc</in>
+          <in>urlrequest_test.h</in>
+          <in>views_window.cc</in>
+          <in>views_window.h</in>
+          <in>window_test.cc</in>
+          <in>window_test.h</in>
+          <in>window_test_runner.cc</in>
+          <in>window_test_runner.h</in>
+          <in>window_test_runner_gtk.cc</in>
+          <in>window_test_runner_gtk.h</in>
+          <in>window_test_runner_views.cc</in>
+          <in>window_test_runner_views.h</in>
+        </df>
+        <df name="CMakeFiles">
+          <df name="cefclient.dir">
+            <df name="browser">
+            </df>
+            <df name="common">
+            </df>
+            <df name="renderer">
+            </df>
+          </df>
+        </df>
+        <df name="common">
+          <in>client_app.cc</in>
+          <in>client_app.h</in>
+          <in>client_app_delegates_common.cc</in>
+          <in>client_app_other.cc</in>
+          <in>client_app_other.h</in>
+          <in>client_switches.cc</in>
+          <in>client_switches.h</in>
+          <in>scheme_test_common.cc</in>
+          <in>scheme_test_common.h</in>
+        </df>
+        <df name="Debug">
+          <df name="files">
+          </df>
+          <df name="locales">
+          </df>
+        </df>
+        <df name="renderer">
+          <in>client_app_delegates_renderer.cc</in>
+          <in>client_app_renderer.cc</in>
+          <in>client_app_renderer.h</in>
+          <in>client_renderer.cc</in>
+          <in>client_renderer.h</in>
+          <in>performance_test.cc</in>
+          <in>performance_test.h</in>
+          <in>performance_test_setup.h</in>
+          <in>performance_test_tests.cc</in>
+        </df>
+        <df name="resources">
+        </df>
+        <in>cefclient_gtk.cc</in>
+      </df>
+      <df name="cefsimple">
+        <df name="CMakeFiles">
+          <df name="cefsimple.dir">
+          </df>
+        </df>
+        <df name="Debug">
+          <df name="locales">
+          </df>
+        </df>
+        <in>cefsimple_linux.cc</in>
+        <in>simple_app.cc</in>
+        <in>simple_app.h</in>
+        <in>simple_handler.cc</in>
+        <in>simple_handler.h</in>
+        <in>simple_handler_linux.cc</in>
+      </df>
+      <df name="cmake">
+      </df>
+      <df name="CMakeFiles">
+        <df name="3.5.1">
+          <df name="CompilerIdC">
+            <in>CMakeCCompilerId.c</in>
+          </df>
+          <df name="CompilerIdCXX">
+            <in>CMakeCXXCompilerId.cpp</in>
+          </df>
+        </df>
+        <df name="CMakeTmp">
+        </df>
+        <in>feature_tests.c</in>
+        <in>feature_tests.cxx</in>
+      </df>
+      <df name="Debug">
+      </df>
+      <df name="include">
+        <df name="base">
+          <df name="internal">
+            <in>cef_atomicops_atomicword_compat.h</in>
+            <in>cef_atomicops_x86_gcc.h</in>
+            <in>cef_bind_internal.h</in>
+            <in>cef_callback_internal.h</in>
+            <in>cef_lock_impl.h</in>
+            <in>cef_raw_scoped_refptr_mismatch_checker.h</in>
+            <in>cef_thread_checker_impl.h</in>
+          </df>
+          <in>cef_atomic_ref_count.h</in>
+          <in>cef_atomicops.h</in>
+          <in>cef_basictypes.h</in>
+          <in>cef_bind.h</in>
+          <in>cef_bind_helpers.h</in>
+          <in>cef_build.h</in>
+          <in>cef_callback.h</in>
+          <in>cef_callback_forward.h</in>
+          <in>cef_callback_helpers.h</in>
+          <in>cef_callback_list.h</in>
+          <in>cef_cancelable_callback.h</in>
+          <in>cef_lock.h</in>
+          <in>cef_logging.h</in>
+          <in>cef_macros.h</in>
+          <in>cef_move.h</in>
+          <in>cef_platform_thread.h</in>
+          <in>cef_ref_counted.h</in>
+          <in>cef_scoped_ptr.h</in>
+          <in>cef_string16.h</in>
+          <in>cef_template_util.h</in>
+          <in>cef_thread_checker.h</in>
+          <in>cef_thread_collision_warner.h</in>
+          <in>cef_trace_event.h</in>
+          <in>cef_tuple.h</in>
+          <in>cef_weak_ptr.h</in>
+        </df>
+        <df name="capi">
+          <df name="views">
+            <in>cef_box_layout_capi.h</in>
+            <in>cef_browser_view_capi.h</in>
+            <in>cef_browser_view_delegate_capi.h</in>
+            <in>cef_button_capi.h</in>
+            <in>cef_button_delegate_capi.h</in>
+            <in>cef_display_capi.h</in>
+            <in>cef_fill_layout_capi.h</in>
+            <in>cef_label_button_capi.h</in>
+            <in>cef_layout_capi.h</in>
+            <in>cef_menu_button_capi.h</in>
+            <in>cef_menu_button_delegate_capi.h</in>
+            <in>cef_panel_capi.h</in>
+            <in>cef_panel_delegate_capi.h</in>
+            <in>cef_scroll_view_capi.h</in>
+            <in>cef_textfield_capi.h</in>
+            <in>cef_textfield_delegate_capi.h</in>
+            <in>cef_view_capi.h</in>
+            <in>cef_view_delegate_capi.h</in>
+            <in>cef_window_capi.h</in>
+            <in>cef_window_delegate_capi.h</in>
+          </df>
+          <in>cef_app_capi.h</in>
+          <in>cef_auth_callback_capi.h</in>
+          <in>cef_base_capi.h</in>
+          <in>cef_browser_capi.h</in>
+          <in>cef_browser_process_handler_capi.h</in>
+          <in>cef_callback_capi.h</in>
+          <in>cef_client_capi.h</in>
+          <in>cef_command_line_capi.h</in>
+          <in>cef_context_menu_handler_capi.h</in>
+          <in>cef_cookie_capi.h</in>
+          <in>cef_dialog_handler_capi.h</in>
+          <in>cef_display_handler_capi.h</in>
+          <in>cef_dom_capi.h</in>
+          <in>cef_download_handler_capi.h</in>
+          <in>cef_download_item_capi.h</in>
+          <in>cef_drag_data_capi.h</in>
+          <in>cef_drag_handler_capi.h</in>
+          <in>cef_find_handler_capi.h</in>
+          <in>cef_focus_handler_capi.h</in>
+          <in>cef_frame_capi.h</in>
+          <in>cef_geolocation_capi.h</in>
+          <in>cef_geolocation_handler_capi.h</in>
+          <in>cef_image_capi.h</in>
+          <in>cef_jsdialog_handler_capi.h</in>
+          <in>cef_keyboard_handler_capi.h</in>
+          <in>cef_life_span_handler_capi.h</in>
+          <in>cef_load_handler_capi.h</in>
+          <in>cef_menu_model_capi.h</in>
+          <in>cef_menu_model_delegate_capi.h</in>
+          <in>cef_navigation_entry_capi.h</in>
+          <in>cef_origin_whitelist_capi.h</in>
+          <in>cef_parser_capi.h</in>
+          <in>cef_path_util_capi.h</in>
+          <in>cef_print_handler_capi.h</in>
+          <in>cef_print_settings_capi.h</in>
+          <in>cef_process_message_capi.h</in>
+          <in>cef_process_util_capi.h</in>
+          <in>cef_render_handler_capi.h</in>
+          <in>cef_render_process_handler_capi.h</in>
+          <in>cef_request_capi.h</in>
+          <in>cef_request_context_capi.h</in>
+          <in>cef_request_context_handler_capi.h</in>
+          <in>cef_request_handler_capi.h</in>
+          <in>cef_resource_bundle_capi.h</in>
+          <in>cef_resource_bundle_handler_capi.h</in>
+          <in>cef_resource_handler_capi.h</in>
+          <in>cef_response_capi.h</in>
+          <in>cef_response_filter_capi.h</in>
+          <in>cef_scheme_capi.h</in>
+          <in>cef_ssl_info_capi.h</in>
+          <in>cef_stream_capi.h</in>
+          <in>cef_string_visitor_capi.h</in>
+          <in>cef_task_capi.h</in>
+          <in>cef_trace_capi.h</in>
+          <in>cef_urlrequest_capi.h</in>
+          <in>cef_v8_capi.h</in>
+          <in>cef_values_capi.h</in>
+          <in>cef_web_plugin_capi.h</in>
+          <in>cef_xml_reader_capi.h</in>
+          <in>cef_zip_reader_capi.h</in>
+        </df>
+        <df name="internal">
+          <in>cef_export.h</in>
+          <in>cef_linux.h</in>
+          <in>cef_logging_internal.h</in>
+          <in>cef_ptr.h</in>
+          <in>cef_string.h</in>
+          <in>cef_string_list.h</in>
+          <in>cef_string_map.h</in>
+          <in>cef_string_multimap.h</in>
+          <in>cef_string_types.h</in>
+          <in>cef_string_wrappers.h</in>
+          <in>cef_thread_internal.h</in>
+          <in>cef_time.h</in>
+          <in>cef_trace_event_internal.h</in>
+          <in>cef_types.h</in>
+          <in>cef_types_linux.h</in>
+          <in>cef_types_wrappers.h</in>
+        </df>
+        <df name="views">
+          <in>cef_box_layout.h</in>
+          <in>cef_browser_view.h</in>
+          <in>cef_browser_view_delegate.h</in>
+          <in>cef_button.h</in>
+          <in>cef_button_delegate.h</in>
+          <in>cef_display.h</in>
+          <in>cef_fill_layout.h</in>
+          <in>cef_label_button.h</in>
+          <in>cef_layout.h</in>
+          <in>cef_menu_button.h</in>
+          <in>cef_menu_button_delegate.h</in>
+          <in>cef_panel.h</in>
+          <in>cef_panel_delegate.h</in>
+          <in>cef_scroll_view.h</in>
+          <in>cef_textfield.h</in>
+          <in>cef_textfield_delegate.h</in>
+          <in>cef_view.h</in>
+          <in>cef_view_delegate.h</in>
+          <in>cef_window.h</in>
+          <in>cef_window_delegate.h</in>
+        </df>
+        <df name="wrapper">
+          <in>cef_byte_read_handler.h</in>
+          <in>cef_closure_task.h</in>
+          <in>cef_helpers.h</in>
+          <in>cef_message_router.h</in>
+          <in>cef_resource_manager.h</in>
+          <in>cef_stream_resource_handler.h</in>
+          <in>cef_xml_object.h</in>
+          <in>cef_zip_archive.h</in>
+        </df>
+        <in>cef_app.h</in>
+        <in>cef_auth_callback.h</in>
+        <in>cef_base.h</in>
+        <in>cef_browser.h</in>
+        <in>cef_browser_process_handler.h</in>
+        <in>cef_callback.h</in>
+        <in>cef_client.h</in>
+        <in>cef_command_line.h</in>
+        <in>cef_context_menu_handler.h</in>
+        <in>cef_cookie.h</in>
+        <in>cef_dialog_handler.h</in>
+        <in>cef_display_handler.h</in>
+        <in>cef_dom.h</in>
+        <in>cef_download_handler.h</in>
+        <in>cef_download_item.h</in>
+        <in>cef_drag_data.h</in>
+        <in>cef_drag_handler.h</in>
+        <in>cef_find_handler.h</in>
+        <in>cef_focus_handler.h</in>
+        <in>cef_frame.h</in>
+        <in>cef_geolocation.h</in>
+        <in>cef_geolocation_handler.h</in>
+        <in>cef_image.h</in>
+        <in>cef_jsdialog_handler.h</in>
+        <in>cef_keyboard_handler.h</in>
+        <in>cef_life_span_handler.h</in>
+        <in>cef_load_handler.h</in>
+        <in>cef_menu_model.h</in>
+        <in>cef_menu_model_delegate.h</in>
+        <in>cef_navigation_entry.h</in>
+        <in>cef_origin_whitelist.h</in>
+        <in>cef_pack_resources.h</in>
+        <in>cef_pack_strings.h</in>
+        <in>cef_parser.h</in>
+        <in>cef_path_util.h</in>
+        <in>cef_print_handler.h</in>
+        <in>cef_print_settings.h</in>
+        <in>cef_process_message.h</in>
+        <in>cef_process_util.h</in>
+        <in>cef_render_handler.h</in>
+        <in>cef_render_process_handler.h</in>
+        <in>cef_request.h</in>
+        <in>cef_request_context.h</in>
+        <in>cef_request_context_handler.h</in>
+        <in>cef_request_handler.h</in>
+        <in>cef_resource_bundle.h</in>
+        <in>cef_resource_bundle_handler.h</in>
+        <in>cef_resource_handler.h</in>
+        <in>cef_response.h</in>
+        <in>cef_response_filter.h</in>
+        <in>cef_scheme.h</in>
+        <in>cef_ssl_info.h</in>
+        <in>cef_stream.h</in>
+        <in>cef_string_visitor.h</in>
+        <in>cef_task.h</in>
+        <in>cef_trace.h</in>
+        <in>cef_urlrequest.h</in>
+        <in>cef_v8.h</in>
+        <in>cef_values.h</in>
+        <in>cef_version.h</in>
+        <in>cef_web_plugin.h</in>
+        <in>cef_xml_reader.h</in>
+        <in>cef_zip_reader.h</in>
+      </df>
+      <df name="libcef_dll">
+        <df name="base">
+          <in>cef_atomicops_x86_gcc.cc</in>
+          <in>cef_bind_helpers.cc</in>
+          <in>cef_callback_helpers.cc</in>
+          <in>cef_callback_internal.cc</in>
+          <in>cef_lock.cc</in>
+          <in>cef_lock_impl.cc</in>
+          <in>cef_logging.cc</in>
+          <in>cef_ref_counted.cc</in>
+          <in>cef_string16.cc</in>
+          <in>cef_thread_checker_impl.cc</in>
+          <in>cef_thread_collision_warner.cc</in>
+          <in>cef_weak_ptr.cc</in>
+        </df>
+        <df name="cpptoc">
+          <df name="views">
+            <in>browser_view_delegate_cpptoc.cc</in>
+            <in>browser_view_delegate_cpptoc.h</in>
+            <in>button_delegate_cpptoc.cc</in>
+            <in>button_delegate_cpptoc.h</in>
+            <in>menu_button_delegate_cpptoc.cc</in>
+            <in>menu_button_delegate_cpptoc.h</in>
+            <in>panel_delegate_cpptoc.cc</in>
+            <in>panel_delegate_cpptoc.h</in>
+            <in>textfield_delegate_cpptoc.cc</in>
+            <in>textfield_delegate_cpptoc.h</in>
+            <in>view_delegate_cpptoc.cc</in>
+            <in>view_delegate_cpptoc.h</in>
+            <in>window_delegate_cpptoc.cc</in>
+            <in>window_delegate_cpptoc.h</in>
+          </df>
+          <in>app_cpptoc.cc</in>
+          <in>app_cpptoc.h</in>
+          <in>base_cpptoc.cc</in>
+          <in>base_cpptoc.h</in>
+          <in>browser_process_handler_cpptoc.cc</in>
+          <in>browser_process_handler_cpptoc.h</in>
+          <in>client_cpptoc.cc</in>
+          <in>client_cpptoc.h</in>
+          <in>completion_callback_cpptoc.cc</in>
+          <in>completion_callback_cpptoc.h</in>
+          <in>context_menu_handler_cpptoc.cc</in>
+          <in>context_menu_handler_cpptoc.h</in>
+          <in>cookie_visitor_cpptoc.cc</in>
+          <in>cookie_visitor_cpptoc.h</in>
+          <in>cpptoc.h</in>
+          <in>delete_cookies_callback_cpptoc.cc</in>
+          <in>delete_cookies_callback_cpptoc.h</in>
+          <in>dialog_handler_cpptoc.cc</in>
+          <in>dialog_handler_cpptoc.h</in>
+          <in>display_handler_cpptoc.cc</in>
+          <in>display_handler_cpptoc.h</in>
+          <in>domvisitor_cpptoc.cc</in>
+          <in>domvisitor_cpptoc.h</in>
+          <in>download_handler_cpptoc.cc</in>
+          <in>download_handler_cpptoc.h</in>
+          <in>download_image_callback_cpptoc.cc</in>
+          <in>download_image_callback_cpptoc.h</in>
+          <in>drag_handler_cpptoc.cc</in>
+          <in>drag_handler_cpptoc.h</in>
+          <in>end_tracing_callback_cpptoc.cc</in>
+          <in>end_tracing_callback_cpptoc.h</in>
+          <in>find_handler_cpptoc.cc</in>
+          <in>find_handler_cpptoc.h</in>
+          <in>focus_handler_cpptoc.cc</in>
+          <in>focus_handler_cpptoc.h</in>
+          <in>geolocation_handler_cpptoc.cc</in>
+          <in>geolocation_handler_cpptoc.h</in>
+          <in>get_geolocation_callback_cpptoc.cc</in>
+          <in>get_geolocation_callback_cpptoc.h</in>
+          <in>jsdialog_handler_cpptoc.cc</in>
+          <in>jsdialog_handler_cpptoc.h</in>
+          <in>keyboard_handler_cpptoc.cc</in>
+          <in>keyboard_handler_cpptoc.h</in>
+          <in>life_span_handler_cpptoc.cc</in>
+          <in>life_span_handler_cpptoc.h</in>
+          <in>load_handler_cpptoc.cc</in>
+          <in>load_handler_cpptoc.h</in>
+          <in>menu_model_delegate_cpptoc.cc</in>
+          <in>menu_model_delegate_cpptoc.h</in>
+          <in>navigation_entry_visitor_cpptoc.cc</in>
+          <in>navigation_entry_visitor_cpptoc.h</in>
+          <in>pdf_print_callback_cpptoc.cc</in>
+          <in>pdf_print_callback_cpptoc.h</in>
+          <in>print_handler_cpptoc.cc</in>
+          <in>print_handler_cpptoc.h</in>
+          <in>read_handler_cpptoc.cc</in>
+          <in>read_handler_cpptoc.h</in>
+          <in>render_handler_cpptoc.cc</in>
+          <in>render_handler_cpptoc.h</in>
+          <in>render_process_handler_cpptoc.cc</in>
+          <in>render_process_handler_cpptoc.h</in>
+          <in>request_context_handler_cpptoc.cc</in>
+          <in>request_context_handler_cpptoc.h</in>
+          <in>request_handler_cpptoc.cc</in>
+          <in>request_handler_cpptoc.h</in>
+          <in>resolve_callback_cpptoc.cc</in>
+          <in>resolve_callback_cpptoc.h</in>
+          <in>resource_bundle_handler_cpptoc.cc</in>
+          <in>resource_bundle_handler_cpptoc.h</in>
+          <in>resource_handler_cpptoc.cc</in>
+          <in>resource_handler_cpptoc.h</in>
+          <in>response_filter_cpptoc.cc</in>
+          <in>response_filter_cpptoc.h</in>
+          <in>run_file_dialog_callback_cpptoc.cc</in>
+          <in>run_file_dialog_callback_cpptoc.h</in>
+          <in>scheme_handler_factory_cpptoc.cc</in>
+          <in>scheme_handler_factory_cpptoc.h</in>
+          <in>set_cookie_callback_cpptoc.cc</in>
+          <in>set_cookie_callback_cpptoc.h</in>
+          <in>string_visitor_cpptoc.cc</in>
+          <in>string_visitor_cpptoc.h</in>
+          <in>task_cpptoc.cc</in>
+          <in>task_cpptoc.h</in>
+          <in>urlrequest_client_cpptoc.cc</in>
+          <in>urlrequest_client_cpptoc.h</in>
+          <in>v8accessor_cpptoc.cc</in>
+          <in>v8accessor_cpptoc.h</in>
+          <in>v8handler_cpptoc.cc</in>
+          <in>v8handler_cpptoc.h</in>
+          <in>web_plugin_info_visitor_cpptoc.cc</in>
+          <in>web_plugin_info_visitor_cpptoc.h</in>
+          <in>web_plugin_unstable_callback_cpptoc.cc</in>
+          <in>web_plugin_unstable_callback_cpptoc.h</in>
+          <in>write_handler_cpptoc.cc</in>
+          <in>write_handler_cpptoc.h</in>
+        </df>
+        <df name="ctocpp">
+          <df name="views">
+            <in>box_layout_ctocpp.cc</in>
+            <in>box_layout_ctocpp.h</in>
+            <in>browser_view_ctocpp.cc</in>
+            <in>browser_view_ctocpp.h</in>
+            <in>button_ctocpp.cc</in>
+            <in>button_ctocpp.h</in>
+            <in>display_ctocpp.cc</in>
+            <in>display_ctocpp.h</in>
+            <in>fill_layout_ctocpp.cc</in>
+            <in>fill_layout_ctocpp.h</in>
+            <in>label_button_ctocpp.cc</in>
+            <in>label_button_ctocpp.h</in>
+            <in>layout_ctocpp.cc</in>
+            <in>layout_ctocpp.h</in>
+            <in>menu_button_ctocpp.cc</in>
+            <in>menu_button_ctocpp.h</in>
+            <in>panel_ctocpp.cc</in>
+            <in>panel_ctocpp.h</in>
+            <in>scroll_view_ctocpp.cc</in>
+            <in>scroll_view_ctocpp.h</in>
+            <in>textfield_ctocpp.cc</in>
+            <in>textfield_ctocpp.h</in>
+            <in>view_ctocpp.cc</in>
+            <in>view_ctocpp.h</in>
+            <in>window_ctocpp.cc</in>
+            <in>window_ctocpp.h</in>
+          </df>
+          <in>auth_callback_ctocpp.cc</in>
+          <in>auth_callback_ctocpp.h</in>
+          <in>before_download_callback_ctocpp.cc</in>
+          <in>before_download_callback_ctocpp.h</in>
+          <in>binary_value_ctocpp.cc</in>
+          <in>binary_value_ctocpp.h</in>
+          <in>browser_ctocpp.cc</in>
+          <in>browser_ctocpp.h</in>
+          <in>browser_host_ctocpp.cc</in>
+          <in>browser_host_ctocpp.h</in>
+          <in>callback_ctocpp.cc</in>
+          <in>callback_ctocpp.h</in>
+          <in>command_line_ctocpp.cc</in>
+          <in>command_line_ctocpp.h</in>
+          <in>context_menu_params_ctocpp.cc</in>
+          <in>context_menu_params_ctocpp.h</in>
+          <in>cookie_manager_ctocpp.cc</in>
+          <in>cookie_manager_ctocpp.h</in>
+          <in>ctocpp.h</in>
+          <in>dictionary_value_ctocpp.cc</in>
+          <in>dictionary_value_ctocpp.h</in>
+          <in>domdocument_ctocpp.cc</in>
+          <in>domdocument_ctocpp.h</in>
+          <in>domnode_ctocpp.cc</in>
+          <in>domnode_ctocpp.h</in>
+          <in>download_item_callback_ctocpp.cc</in>
+          <in>download_item_callback_ctocpp.h</in>
+          <in>download_item_ctocpp.cc</in>
+          <in>download_item_ctocpp.h</in>
+          <in>drag_data_ctocpp.cc</in>
+          <in>drag_data_ctocpp.h</in>
+          <in>file_dialog_callback_ctocpp.cc</in>
+          <in>file_dialog_callback_ctocpp.h</in>
+          <in>frame_ctocpp.cc</in>
+          <in>frame_ctocpp.h</in>
+          <in>geolocation_callback_ctocpp.cc</in>
+          <in>geolocation_callback_ctocpp.h</in>
+          <in>image_ctocpp.cc</in>
+          <in>image_ctocpp.h</in>
+          <in>jsdialog_callback_ctocpp.cc</in>
+          <in>jsdialog_callback_ctocpp.h</in>
+          <in>list_value_ctocpp.cc</in>
+          <in>list_value_ctocpp.h</in>
+          <in>menu_model_ctocpp.cc</in>
+          <in>menu_model_ctocpp.h</in>
+          <in>navigation_entry_ctocpp.cc</in>
+          <in>navigation_entry_ctocpp.h</in>
+          <in>post_data_ctocpp.cc</in>
+          <in>post_data_ctocpp.h</in>
+          <in>post_data_element_ctocpp.cc</in>
+          <in>post_data_element_ctocpp.h</in>
+          <in>print_dialog_callback_ctocpp.cc</in>
+          <in>print_dialog_callback_ctocpp.h</in>
+          <in>print_job_callback_ctocpp.cc</in>
+          <in>print_job_callback_ctocpp.h</in>
+          <in>print_settings_ctocpp.cc</in>
+          <in>print_settings_ctocpp.h</in>
+          <in>process_message_ctocpp.cc</in>
+          <in>process_message_ctocpp.h</in>
+          <in>request_callback_ctocpp.cc</in>
+          <in>request_callback_ctocpp.h</in>
+          <in>request_context_ctocpp.cc</in>
+          <in>request_context_ctocpp.h</in>
+          <in>request_ctocpp.cc</in>
+          <in>request_ctocpp.h</in>
+          <in>resource_bundle_ctocpp.cc</in>
+          <in>resource_bundle_ctocpp.h</in>
+          <in>response_ctocpp.cc</in>
+          <in>response_ctocpp.h</in>
+          <in>run_context_menu_callback_ctocpp.cc</in>
+          <in>run_context_menu_callback_ctocpp.h</in>
+          <in>scheme_registrar_ctocpp.cc</in>
+          <in>scheme_registrar_ctocpp.h</in>
+          <in>sslcert_principal_ctocpp.cc</in>
+          <in>sslcert_principal_ctocpp.h</in>
+          <in>sslinfo_ctocpp.cc</in>
+          <in>sslinfo_ctocpp.h</in>
+          <in>stream_reader_ctocpp.cc</in>
+          <in>stream_reader_ctocpp.h</in>
+          <in>stream_writer_ctocpp.cc</in>
+          <in>stream_writer_ctocpp.h</in>
+          <in>task_runner_ctocpp.cc</in>
+          <in>task_runner_ctocpp.h</in>
+          <in>urlrequest_ctocpp.cc</in>
+          <in>urlrequest_ctocpp.h</in>
+          <in>v8context_ctocpp.cc</in>
+          <in>v8context_ctocpp.h</in>
+          <in>v8exception_ctocpp.cc</in>
+          <in>v8exception_ctocpp.h</in>
+          <in>v8stack_frame_ctocpp.cc</in>
+          <in>v8stack_frame_ctocpp.h</in>
+          <in>v8stack_trace_ctocpp.cc</in>
+          <in>v8stack_trace_ctocpp.h</in>
+          <in>v8value_ctocpp.cc</in>
+          <in>v8value_ctocpp.h</in>
+          <in>value_ctocpp.cc</in>
+          <in>value_ctocpp.h</in>
+          <in>web_plugin_info_ctocpp.cc</in>
+          <in>web_plugin_info_ctocpp.h</in>
+          <in>xml_reader_ctocpp.cc</in>
+          <in>xml_reader_ctocpp.h</in>
+          <in>zip_reader_ctocpp.cc</in>
+          <in>zip_reader_ctocpp.h</in>
+        </df>
+        <df name="wrapper">
+          <in>cef_browser_info_map.h</in>
+          <in>cef_byte_read_handler.cc</in>
+          <in>cef_closure_task.cc</in>
+          <in>cef_message_router.cc</in>
+          <in>cef_resource_manager.cc</in>
+          <in>cef_stream_resource_handler.cc</in>
+          <in>cef_xml_object.cc</in>
+          <in>cef_zip_archive.cc</in>
+          <in>libcef_dll_wrapper.cc</in>
+          <in>libcef_dll_wrapper2.cc</in>
+        </df>
+        <in>transfer_util.cc</in>
+        <in>transfer_util.h</in>
+        <in>wrapper_types.h</in>
+      </df>
+      <df name="libcef_dll_wrapper">
+        <df name="CMakeFiles">
+          <df name="libcef_dll_wrapper.dir">
+            <df name="base">
+            </df>
+            <df name="cpptoc">
+              <df name="views">
+              </df>
+            </df>
+            <df name="ctocpp">
+              <df name="views">
+              </df>
+            </df>
+            <df name="wrapper">
+            </df>
+          </df>
+        </df>
+      </df>
+      <df name="Release">
+      </df>
+      <df name="Resources">
+        <df name="locales">
+        </df>
+      </df>
+    </df>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Default" type="0">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <platform>2</platform>
+      </toolsSet>
+      <compile>
+        <compiledirpicklist>
+          <compiledirpicklistitem>.</compiledirpicklistitem>
+          <compiledirpicklistitem>${AUTO_FOLDER}</compiledirpicklistitem>
+        </compiledirpicklist>
+        <compiledir>${AUTO_FOLDER}</compiledir>
+        <compilecommandpicklist>
+          <compilecommandpicklistitem>${MAKE} ${ITEM_NAME}.o</compilecommandpicklistitem>
+          <compilecommandpicklistitem>${AUTO_COMPILE}</compilecommandpicklistitem>
+        </compilecommandpicklist>
+        <compilecommand>${AUTO_COMPILE}</compilecommand>
+      </compile>
+      <dbx_gdbdebugger version="1">
+        <gdb_pathmaps>
+        </gdb_pathmaps>
+        <gdb_interceptlist>
+          <gdbinterceptoptions gdb_all="false" gdb_unhandled="true" gdb_unexpected="true"/>
+        </gdb_interceptlist>
+        <gdb_options>
+          <DebugOptions>
+          </DebugOptions>
+        </gdb_options>
+        <gdb_buildfirst gdb_buildfirst_overriden="false" gdb_buildfirst_old="false"/>
+      </dbx_gdbdebugger>
+      <nativedebugger version="1">
+        <engine>gdb</engine>
+      </nativedebugger>
+      <runprofile version="9">
+        <runcommandpicklist>
+          <runcommandpicklistitem>"${OUTPUT_PATH}"</runcommandpicklistitem>
+        </runcommandpicklist>
+        <runcommand>"${OUTPUT_PATH}"</runcommand>
+        <rundir>.</rundir>
+        <buildfirst>false</buildfirst>
+        <terminal-type>0</terminal-type>
+        <remove-instrumentation>0</remove-instrumentation>
+        <environment>
+        </environment>
+      </runprofile>
+    </conf>
+  </confs>
+</configurationDescriptor>

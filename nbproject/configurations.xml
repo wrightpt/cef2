@@ -1,0 +1,1598 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="100">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <df root="." name="0">
+      <df name="cefclient">
+        <df name="browser">
+          <in>binding_test.cc</in>
+          <in>browser_window.cc</in>
+          <in>browser_window_osr_gtk.cc</in>
+          <in>browser_window_std_gtk.cc</in>
+          <in>bytes_write_handler.cc</in>
+          <in>client_app_browser.cc</in>
+          <in>client_app_delegates_browser.cc</in>
+          <in>client_handler.cc</in>
+          <in>client_handler_osr.cc</in>
+          <in>client_handler_std.cc</in>
+          <in>dialog_handler_gtk.cc</in>
+          <in>dialog_test.cc</in>
+          <in>geometry_util.cc</in>
+          <in>main_context.cc</in>
+          <in>main_context_impl.cc</in>
+          <in>main_context_impl_posix.cc</in>
+          <in>main_message_loop.cc</in>
+          <in>main_message_loop_std.cc</in>
+          <in>onewClass.cpp</in>
+          <in>osr_renderer.cc</in>
+          <in>preferences_test.cc</in>
+          <in>print_handler_gtk.cc</in>
+          <in>resource_util.cc</in>
+          <in>resource_util_linux.cc</in>
+          <in>resource_util_posix.cc</in>
+          <in>response_filter_test.cc</in>
+          <in>root_window.cc</in>
+          <in>root_window_create.cc</in>
+          <in>root_window_gtk.cc</in>
+          <in>root_window_manager.cc</in>
+          <in>root_window_views.cc</in>
+          <in>scheme_test.cc</in>
+          <in>temp_window_x11.cc</in>
+          <in>test_runner.cc</in>
+          <in>urlrequest_test.cc</in>
+          <in>views_window.cc</in>
+          <in>window_test.cc</in>
+          <in>window_test_runner.cc</in>
+          <in>window_test_runner_gtk.cc</in>
+          <in>window_test_runner_views.cc</in>
+        </df>
+        <df name="common">
+          <in>client_app.cc</in>
+          <in>client_app_delegates_common.cc</in>
+          <in>client_app_other.cc</in>
+          <in>client_switches.cc</in>
+          <in>scheme_test_common.cc</in>
+        </df>
+        <df name="renderer">
+          <in>client_app_delegates_renderer.cc</in>
+          <in>client_app_renderer.cc</in>
+          <in>client_renderer.cc</in>
+          <in>performance_test.cc</in>
+          <in>performance_test_tests.cc</in>
+        </df>
+        <in>cefclient_gtk.cc</in>
+      </df>
+      <df name="cefsimple">
+        <in>cefsimple_linux.cc</in>
+        <in>simple_app.cc</in>
+        <in>simple_handler.cc</in>
+        <in>simple_handler_linux.cc</in>
+      </df>
+      <df name="libcef_dll">
+        <df name="base">
+          <in>cef_atomicops_x86_gcc.cc</in>
+          <in>cef_bind_helpers.cc</in>
+          <in>cef_callback_helpers.cc</in>
+          <in>cef_callback_internal.cc</in>
+          <in>cef_lock.cc</in>
+          <in>cef_lock_impl.cc</in>
+          <in>cef_logging.cc</in>
+          <in>cef_ref_counted.cc</in>
+          <in>cef_string16.cc</in>
+          <in>cef_thread_checker_impl.cc</in>
+          <in>cef_thread_collision_warner.cc</in>
+          <in>cef_weak_ptr.cc</in>
+        </df>
+        <df name="cpptoc">
+          <df name="views">
+            <in>browser_view_delegate_cpptoc.cc</in>
+            <in>button_delegate_cpptoc.cc</in>
+            <in>menu_button_delegate_cpptoc.cc</in>
+            <in>panel_delegate_cpptoc.cc</in>
+            <in>textfield_delegate_cpptoc.cc</in>
+            <in>view_delegate_cpptoc.cc</in>
+            <in>window_delegate_cpptoc.cc</in>
+          </df>
+          <in>app_cpptoc.cc</in>
+          <in>base_cpptoc.cc</in>
+          <in>browser_process_handler_cpptoc.cc</in>
+          <in>client_cpptoc.cc</in>
+          <in>completion_callback_cpptoc.cc</in>
+          <in>context_menu_handler_cpptoc.cc</in>
+          <in>cookie_visitor_cpptoc.cc</in>
+          <in>delete_cookies_callback_cpptoc.cc</in>
+          <in>dialog_handler_cpptoc.cc</in>
+          <in>display_handler_cpptoc.cc</in>
+          <in>domvisitor_cpptoc.cc</in>
+          <in>download_handler_cpptoc.cc</in>
+          <in>download_image_callback_cpptoc.cc</in>
+          <in>drag_handler_cpptoc.cc</in>
+          <in>end_tracing_callback_cpptoc.cc</in>
+          <in>find_handler_cpptoc.cc</in>
+          <in>focus_handler_cpptoc.cc</in>
+          <in>geolocation_handler_cpptoc.cc</in>
+          <in>get_geolocation_callback_cpptoc.cc</in>
+          <in>jsdialog_handler_cpptoc.cc</in>
+          <in>keyboard_handler_cpptoc.cc</in>
+          <in>life_span_handler_cpptoc.cc</in>
+          <in>load_handler_cpptoc.cc</in>
+          <in>menu_model_delegate_cpptoc.cc</in>
+          <in>navigation_entry_visitor_cpptoc.cc</in>
+          <in>pdf_print_callback_cpptoc.cc</in>
+          <in>print_handler_cpptoc.cc</in>
+          <in>read_handler_cpptoc.cc</in>
+          <in>render_handler_cpptoc.cc</in>
+          <in>render_process_handler_cpptoc.cc</in>
+          <in>request_context_handler_cpptoc.cc</in>
+          <in>request_handler_cpptoc.cc</in>
+          <in>resolve_callback_cpptoc.cc</in>
+          <in>resource_bundle_handler_cpptoc.cc</in>
+          <in>resource_handler_cpptoc.cc</in>
+          <in>response_filter_cpptoc.cc</in>
+          <in>run_file_dialog_callback_cpptoc.cc</in>
+          <in>scheme_handler_factory_cpptoc.cc</in>
+          <in>set_cookie_callback_cpptoc.cc</in>
+          <in>string_visitor_cpptoc.cc</in>
+          <in>task_cpptoc.cc</in>
+          <in>urlrequest_client_cpptoc.cc</in>
+          <in>v8accessor_cpptoc.cc</in>
+          <in>v8handler_cpptoc.cc</in>
+          <in>web_plugin_info_visitor_cpptoc.cc</in>
+          <in>web_plugin_unstable_callback_cpptoc.cc</in>
+          <in>write_handler_cpptoc.cc</in>
+        </df>
+        <df name="ctocpp">
+          <df name="views">
+            <in>box_layout_ctocpp.cc</in>
+            <in>browser_view_ctocpp.cc</in>
+            <in>button_ctocpp.cc</in>
+            <in>display_ctocpp.cc</in>
+            <in>fill_layout_ctocpp.cc</in>
+            <in>label_button_ctocpp.cc</in>
+            <in>layout_ctocpp.cc</in>
+            <in>menu_button_ctocpp.cc</in>
+            <in>panel_ctocpp.cc</in>
+            <in>scroll_view_ctocpp.cc</in>
+            <in>textfield_ctocpp.cc</in>
+            <in>view_ctocpp.cc</in>
+            <in>window_ctocpp.cc</in>
+          </df>
+          <in>auth_callback_ctocpp.cc</in>
+          <in>before_download_callback_ctocpp.cc</in>
+          <in>binary_value_ctocpp.cc</in>
+          <in>browser_ctocpp.cc</in>
+          <in>browser_host_ctocpp.cc</in>
+          <in>callback_ctocpp.cc</in>
+          <in>command_line_ctocpp.cc</in>
+          <in>context_menu_params_ctocpp.cc</in>
+          <in>cookie_manager_ctocpp.cc</in>
+          <in>dictionary_value_ctocpp.cc</in>
+          <in>domdocument_ctocpp.cc</in>
+          <in>domnode_ctocpp.cc</in>
+          <in>download_item_callback_ctocpp.cc</in>
+          <in>download_item_ctocpp.cc</in>
+          <in>drag_data_ctocpp.cc</in>
+          <in>file_dialog_callback_ctocpp.cc</in>
+          <in>frame_ctocpp.cc</in>
+          <in>geolocation_callback_ctocpp.cc</in>
+          <in>image_ctocpp.cc</in>
+          <in>jsdialog_callback_ctocpp.cc</in>
+          <in>list_value_ctocpp.cc</in>
+          <in>menu_model_ctocpp.cc</in>
+          <in>navigation_entry_ctocpp.cc</in>
+          <in>post_data_ctocpp.cc</in>
+          <in>post_data_element_ctocpp.cc</in>
+          <in>print_dialog_callback_ctocpp.cc</in>
+          <in>print_job_callback_ctocpp.cc</in>
+          <in>print_settings_ctocpp.cc</in>
+          <in>process_message_ctocpp.cc</in>
+          <in>request_callback_ctocpp.cc</in>
+          <in>request_context_ctocpp.cc</in>
+          <in>request_ctocpp.cc</in>
+          <in>resource_bundle_ctocpp.cc</in>
+          <in>response_ctocpp.cc</in>
+          <in>run_context_menu_callback_ctocpp.cc</in>
+          <in>scheme_registrar_ctocpp.cc</in>
+          <in>sslcert_principal_ctocpp.cc</in>
+          <in>sslinfo_ctocpp.cc</in>
+          <in>stream_reader_ctocpp.cc</in>
+          <in>stream_writer_ctocpp.cc</in>
+          <in>task_runner_ctocpp.cc</in>
+          <in>urlrequest_ctocpp.cc</in>
+          <in>v8context_ctocpp.cc</in>
+          <in>v8exception_ctocpp.cc</in>
+          <in>v8stack_frame_ctocpp.cc</in>
+          <in>v8stack_trace_ctocpp.cc</in>
+          <in>v8value_ctocpp.cc</in>
+          <in>value_ctocpp.cc</in>
+          <in>web_plugin_info_ctocpp.cc</in>
+          <in>xml_reader_ctocpp.cc</in>
+          <in>zip_reader_ctocpp.cc</in>
+        </df>
+        <df name="wrapper">
+          <in>cef_byte_read_handler.cc</in>
+          <in>cef_closure_task.cc</in>
+          <in>cef_message_router.cc</in>
+          <in>cef_resource_manager.cc</in>
+          <in>cef_stream_resource_handler.cc</in>
+          <in>cef_xml_object.cc</in>
+          <in>cef_zip_archive.cc</in>
+          <in>libcef_dll_wrapper.cc</in>
+          <in>libcef_dll_wrapper2.cc</in>
+        </df>
+        <in>transfer_util.cc</in>
+      </df>
+    </df>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>CMakeLists.txt</itemPath>
+      <itemPath>Makefile</itemPath>
+      <itemPath>nbproject/private/launcher.properties</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceFolderFilter>^(nbproject)$</sourceFolderFilter>
+  <sourceRootList>
+    <Elem>.</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Default" type="0">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>false</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <flagsDictionary>
+        <element flagsID="0"
+                 commonFlags="-fPIC -fstack-protector -m64 -march=x86-64 -fno-exceptions -fno-rtti -std=gnu++11"/>
+      </flagsDictionary>
+      <codeAssistance>
+      </codeAssistance>
+      <makefileType>
+        <makeTool>
+          <buildCommandWorkingDir>.</buildCommandWorkingDir>
+          <buildCommand>${MAKE} -f Makefile</buildCommand>
+          <cleanCommand>${MAKE} -f Makefile clean</cleanCommand>
+          <executablePath>build/cefclient/Debug/cefclient</executablePath>
+          <ccTool>
+            <incDir>
+              <pElem>.</pElem>
+            </incDir>
+            <preprocessorList>
+              <Elem>_FILE_OFFSET_BITS=64</Elem>
+              <Elem>__STDC_CONSTANT_MACROS</Elem>
+              <Elem>__STDC_FORMAT_MACROS</Elem>
+            </preprocessorList>
+          </ccTool>
+        </makeTool>
+        <preBuild>
+          <preBuildCommandWorkingDir>.</preBuildCommandWorkingDir>
+          <preBuildCommand>${CMAKE} -G "Unix Makefiles" -DCMAKE_BUILD_TYPE=Debug -DCMAKE_C_COMPILER=${IDE_CC} -DCMAKE_CXX_COMPILER=${IDE_CXX} -DCMAKE_C_FLAGS_DEBUG="-g3 -gdwarf-2" -DCMAKE_CXX_FLAGS_DEBUG="-g3 -gdwarf-2" -DCMAKE_EXPORT_COMPILE_COMMANDS=ON .</preBuildCommand>
+        </preBuild>
+      </makefileType>
+      <item path="cefclient/browser/binding_test.cc" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="cefclient/browser/browser_window.cc"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="cefclient/browser/browser_window_osr_gtk.cc"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="cefclient/browser/browser_window_std_gtk.cc"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="cefclient/browser/bytes_write_handler.cc"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="cefclient/browser/client_app_browser.cc"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="cefclient/browser/client_app_delegates_browser.cc"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="cefclient/browser/client_handler.cc"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="cefclient/browser/client_handler_osr.cc"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="cefclient/browser/client_handler_std.cc"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="cefclient/browser/dialog_handler_gtk.cc"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="cefclient/browser/dialog_test.cc" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="cefclient/browser/geometry_util.cc" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="cefclient/browser/main_context.cc" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="cefclient/browser/main_context_impl.cc"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="cefclient/browser/main_context_impl_posix.cc"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="cefclient/browser/main_message_loop.cc"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="cefclient/browser/main_message_loop_std.cc"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="cefclient/browser/onewClass.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="cefclient/browser/osr_renderer.cc" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="cefclient/browser/preferences_test.cc"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="cefclient/browser/print_handler_gtk.cc"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="cefclient/browser/resource_util.cc" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="cefclient/browser/resource_util_linux.cc"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="cefclient/browser/resource_util_posix.cc"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="cefclient/browser/response_filter_test.cc"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="cefclient/browser/root_window.cc" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="cefclient/browser/root_window_create.cc"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="cefclient/browser/root_window_gtk.cc"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="cefclient/browser/root_window_manager.cc"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="cefclient/browser/root_window_views.cc"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="cefclient/browser/scheme_test.cc" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="cefclient/browser/temp_window_x11.cc"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="cefclient/browser/test_runner.cc" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="cefclient/browser/urlrequest_test.cc"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="cefclient/browser/views_window.cc" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="cefclient/browser/window_test.cc" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="cefclient/browser/window_test_runner.cc"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="cefclient/browser/window_test_runner_gtk.cc"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="cefclient/browser/window_test_runner_views.cc"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="cefclient/cefclient_gtk.cc" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="cefclient/common/client_app.cc" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="cefclient/common/client_app_delegates_common.cc"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="cefclient/common/client_app_other.cc"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="cefclient/common/client_switches.cc"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="cefclient/common/scheme_test_common.cc"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="cefclient/renderer/client_app_delegates_renderer.cc"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="cefclient/renderer/client_app_renderer.cc"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="cefclient/renderer/client_renderer.cc"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="cefclient/renderer/performance_test.cc"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="cefclient/renderer/performance_test_tests.cc"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="cefsimple/cefsimple_linux.cc" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="cefsimple/simple_app.cc" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="cefsimple/simple_handler.cc" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="cefsimple/simple_handler_linux.cc" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <folder path="0/cefclient">
+        <ccTool>
+          <incDir>
+            <pElem>/usr/include/gtk-unix-print-2.0</pElem>
+            <pElem>/usr/include/gtk-2.0</pElem>
+            <pElem>/usr/include/gtkglext-1.0</pElem>
+            <pElem>/usr/lib/gtkglext-1.0/include</pElem>
+            <pElem>/usr/lib/x86_64-linux-gnu/gtk-2.0/include</pElem>
+            <pElem>/usr/include/pango-1.0</pElem>
+            <pElem>/usr/include/gio-unix-2.0</pElem>
+            <pElem>/usr/include/cairo</pElem>
+            <pElem>/usr/include/atk-1.0</pElem>
+            <pElem>/usr/include/pixman-1</pElem>
+            <pElem>/usr/include/libpng12</pElem>
+            <pElem>/usr/include/gdk-pixbuf-2.0</pElem>
+            <pElem>/usr/include/harfbuzz</pElem>
+            <pElem>/usr/include/glib-2.0</pElem>
+            <pElem>/usr/lib/x86_64-linux-gnu/glib-2.0/include</pElem>
+            <pElem>/usr/include/freetype2</pElem>
+          </incDir>
+        </ccTool>
+      </folder>
+      <folder path="0/cefclient/browser">
+        <ccTool>
+          <incDir>
+            <pElem>cefclient</pElem>
+          </incDir>
+        </ccTool>
+      </folder>
+      <folder path="0/cefclient/common">
+        <ccTool>
+          <incDir>
+            <pElem>cefclient</pElem>
+          </incDir>
+        </ccTool>
+      </folder>
+      <folder path="0/cefclient/renderer">
+        <ccTool>
+          <incDir>
+            <pElem>cefclient</pElem>
+          </incDir>
+        </ccTool>
+      </folder>
+      <folder path="0/libcef_dll">
+        <ccTool>
+          <incDir>
+            <pElem>libcef_dll_wrapper</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>USING_CEF_SHARED</Elem>
+          </preprocessorList>
+        </ccTool>
+      </folder>
+      <item path="libcef_dll/base/cef_atomicops_x86_gcc.cc"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="libcef_dll/base/cef_bind_helpers.cc"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="libcef_dll/base/cef_callback_helpers.cc"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="libcef_dll/base/cef_callback_internal.cc"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="libcef_dll/base/cef_lock.cc" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="libcef_dll/base/cef_lock_impl.cc" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="libcef_dll/base/cef_logging.cc" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="libcef_dll/base/cef_ref_counted.cc" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="libcef_dll/base/cef_string16.cc" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="libcef_dll/base/cef_thread_checker_impl.cc"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="libcef_dll/base/cef_thread_collision_warner.cc"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="libcef_dll/base/cef_weak_ptr.cc" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="libcef_dll/cpptoc/app_cpptoc.cc" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="libcef_dll/cpptoc/base_cpptoc.cc" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="libcef_dll/cpptoc/browser_process_handler_cpptoc.cc"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="libcef_dll/cpptoc/client_cpptoc.cc" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="libcef_dll/cpptoc/completion_callback_cpptoc.cc"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="libcef_dll/cpptoc/context_menu_handler_cpptoc.cc"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="libcef_dll/cpptoc/cookie_visitor_cpptoc.cc"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="libcef_dll/cpptoc/delete_cookies_callback_cpptoc.cc"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="libcef_dll/cpptoc/dialog_handler_cpptoc.cc"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="libcef_dll/cpptoc/display_handler_cpptoc.cc"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="libcef_dll/cpptoc/domvisitor_cpptoc.cc"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="libcef_dll/cpptoc/download_handler_cpptoc.cc"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="libcef_dll/cpptoc/download_image_callback_cpptoc.cc"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="libcef_dll/cpptoc/drag_handler_cpptoc.cc"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="libcef_dll/cpptoc/end_tracing_callback_cpptoc.cc"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="libcef_dll/cpptoc/find_handler_cpptoc.cc"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="libcef_dll/cpptoc/focus_handler_cpptoc.cc"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="libcef_dll/cpptoc/geolocation_handler_cpptoc.cc"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="libcef_dll/cpptoc/get_geolocation_callback_cpptoc.cc"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="libcef_dll/cpptoc/jsdialog_handler_cpptoc.cc"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="libcef_dll/cpptoc/keyboard_handler_cpptoc.cc"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="libcef_dll/cpptoc/life_span_handler_cpptoc.cc"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="libcef_dll/cpptoc/load_handler_cpptoc.cc"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="libcef_dll/cpptoc/menu_model_delegate_cpptoc.cc"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="libcef_dll/cpptoc/navigation_entry_visitor_cpptoc.cc"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="libcef_dll/cpptoc/pdf_print_callback_cpptoc.cc"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="libcef_dll/cpptoc/print_handler_cpptoc.cc"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="libcef_dll/cpptoc/read_handler_cpptoc.cc"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="libcef_dll/cpptoc/render_handler_cpptoc.cc"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="libcef_dll/cpptoc/render_process_handler_cpptoc.cc"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="libcef_dll/cpptoc/request_context_handler_cpptoc.cc"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="libcef_dll/cpptoc/request_handler_cpptoc.cc"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="libcef_dll/cpptoc/resolve_callback_cpptoc.cc"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="libcef_dll/cpptoc/resource_bundle_handler_cpptoc.cc"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="libcef_dll/cpptoc/resource_handler_cpptoc.cc"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="libcef_dll/cpptoc/response_filter_cpptoc.cc"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="libcef_dll/cpptoc/run_file_dialog_callback_cpptoc.cc"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="libcef_dll/cpptoc/scheme_handler_factory_cpptoc.cc"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="libcef_dll/cpptoc/set_cookie_callback_cpptoc.cc"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="libcef_dll/cpptoc/string_visitor_cpptoc.cc"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="libcef_dll/cpptoc/task_cpptoc.cc" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="libcef_dll/cpptoc/urlrequest_client_cpptoc.cc"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="libcef_dll/cpptoc/v8accessor_cpptoc.cc"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="libcef_dll/cpptoc/v8handler_cpptoc.cc"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="libcef_dll/cpptoc/views/browser_view_delegate_cpptoc.cc"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="libcef_dll/cpptoc/views/button_delegate_cpptoc.cc"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="libcef_dll/cpptoc/views/menu_button_delegate_cpptoc.cc"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="libcef_dll/cpptoc/views/panel_delegate_cpptoc.cc"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="libcef_dll/cpptoc/views/textfield_delegate_cpptoc.cc"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="libcef_dll/cpptoc/views/view_delegate_cpptoc.cc"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="libcef_dll/cpptoc/views/window_delegate_cpptoc.cc"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="libcef_dll/cpptoc/web_plugin_info_visitor_cpptoc.cc"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="libcef_dll/cpptoc/web_plugin_unstable_callback_cpptoc.cc"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="libcef_dll/cpptoc/write_handler_cpptoc.cc"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="libcef_dll/ctocpp/auth_callback_ctocpp.cc"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="libcef_dll/ctocpp/before_download_callback_ctocpp.cc"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="libcef_dll/ctocpp/binary_value_ctocpp.cc"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="libcef_dll/ctocpp/browser_ctocpp.cc"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="libcef_dll/ctocpp/browser_host_ctocpp.cc"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="libcef_dll/ctocpp/callback_ctocpp.cc"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="libcef_dll/ctocpp/command_line_ctocpp.cc"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="libcef_dll/ctocpp/context_menu_params_ctocpp.cc"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="libcef_dll/ctocpp/cookie_manager_ctocpp.cc"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="libcef_dll/ctocpp/dictionary_value_ctocpp.cc"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="libcef_dll/ctocpp/domdocument_ctocpp.cc"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="libcef_dll/ctocpp/domnode_ctocpp.cc"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="libcef_dll/ctocpp/download_item_callback_ctocpp.cc"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="libcef_dll/ctocpp/download_item_ctocpp.cc"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="libcef_dll/ctocpp/drag_data_ctocpp.cc"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="libcef_dll/ctocpp/file_dialog_callback_ctocpp.cc"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="libcef_dll/ctocpp/frame_ctocpp.cc" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="libcef_dll/ctocpp/geolocation_callback_ctocpp.cc"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="libcef_dll/ctocpp/image_ctocpp.cc" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="libcef_dll/ctocpp/jsdialog_callback_ctocpp.cc"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="libcef_dll/ctocpp/list_value_ctocpp.cc"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="libcef_dll/ctocpp/menu_model_ctocpp.cc"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="libcef_dll/ctocpp/navigation_entry_ctocpp.cc"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="libcef_dll/ctocpp/post_data_ctocpp.cc"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="libcef_dll/ctocpp/post_data_element_ctocpp.cc"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="libcef_dll/ctocpp/print_dialog_callback_ctocpp.cc"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="libcef_dll/ctocpp/print_job_callback_ctocpp.cc"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="libcef_dll/ctocpp/print_settings_ctocpp.cc"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="libcef_dll/ctocpp/process_message_ctocpp.cc"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="libcef_dll/ctocpp/request_callback_ctocpp.cc"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="libcef_dll/ctocpp/request_context_ctocpp.cc"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="libcef_dll/ctocpp/request_ctocpp.cc"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="libcef_dll/ctocpp/resource_bundle_ctocpp.cc"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="libcef_dll/ctocpp/response_ctocpp.cc"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="libcef_dll/ctocpp/run_context_menu_callback_ctocpp.cc"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="libcef_dll/ctocpp/scheme_registrar_ctocpp.cc"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="libcef_dll/ctocpp/sslcert_principal_ctocpp.cc"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="libcef_dll/ctocpp/sslinfo_ctocpp.cc"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="libcef_dll/ctocpp/stream_reader_ctocpp.cc"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="libcef_dll/ctocpp/stream_writer_ctocpp.cc"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="libcef_dll/ctocpp/task_runner_ctocpp.cc"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="libcef_dll/ctocpp/urlrequest_ctocpp.cc"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="libcef_dll/ctocpp/v8context_ctocpp.cc"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="libcef_dll/ctocpp/v8exception_ctocpp.cc"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="libcef_dll/ctocpp/v8stack_frame_ctocpp.cc"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="libcef_dll/ctocpp/v8stack_trace_ctocpp.cc"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="libcef_dll/ctocpp/v8value_ctocpp.cc"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="libcef_dll/ctocpp/value_ctocpp.cc" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="libcef_dll/ctocpp/views/box_layout_ctocpp.cc"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="libcef_dll/ctocpp/views/browser_view_ctocpp.cc"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="libcef_dll/ctocpp/views/button_ctocpp.cc"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="libcef_dll/ctocpp/views/display_ctocpp.cc"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="libcef_dll/ctocpp/views/fill_layout_ctocpp.cc"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="libcef_dll/ctocpp/views/label_button_ctocpp.cc"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="libcef_dll/ctocpp/views/layout_ctocpp.cc"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="libcef_dll/ctocpp/views/menu_button_ctocpp.cc"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="libcef_dll/ctocpp/views/panel_ctocpp.cc"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="libcef_dll/ctocpp/views/scroll_view_ctocpp.cc"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="libcef_dll/ctocpp/views/textfield_ctocpp.cc"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="libcef_dll/ctocpp/views/view_ctocpp.cc"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="libcef_dll/ctocpp/views/window_ctocpp.cc"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="libcef_dll/ctocpp/web_plugin_info_ctocpp.cc"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="libcef_dll/ctocpp/xml_reader_ctocpp.cc"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="libcef_dll/ctocpp/zip_reader_ctocpp.cc"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="libcef_dll/transfer_util.cc" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="libcef_dll/wrapper/cef_byte_read_handler.cc"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="libcef_dll/wrapper/cef_closure_task.cc"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="libcef_dll/wrapper/cef_message_router.cc"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="libcef_dll/wrapper/cef_resource_manager.cc"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="libcef_dll/wrapper/cef_stream_resource_handler.cc"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="libcef_dll/wrapper/cef_xml_object.cc"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="libcef_dll/wrapper/cef_zip_archive.cc"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="libcef_dll/wrapper/libcef_dll_wrapper.cc"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="libcef_dll/wrapper/libcef_dll_wrapper2.cc"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
